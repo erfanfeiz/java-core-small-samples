@@ -4,7 +4,7 @@ public class ObjectInstanceCounter {
         liveInstances++;
     }
 
-    public int getLiveInstances() {
+    public static int getLiveInstances() {
         return liveInstances;
     }
 
